@@ -1,0 +1,17 @@
+import firebase from "firebase";
+
+const firebaseapp = firebase.initializeApp({
+    apiKey: "AIzaSyBePkJ83Fs5z3HltqzATlpLPU8hQ3mmBhg",
+    authDomain: "clone-sad.firebaseapp.com",
+    databaseURL: "https://clone-sad.firebaseio.com",
+    projectId: "clone-sad",
+    storageBucket: "clone-sad.appspot.com",
+    messagingSenderId: "587861543691",
+    appId: "1:587861543691:web:c2d6a1e03ebb135f10700e",
+    measurementId: "G-629WHK9ZRW"
+});
+
+const auth = firebase.auth();
+
+
+export { auth };
